@@ -11,7 +11,7 @@ if(isset($_POST['signin'])){
         $_SESSION['admin_id'] = $row['user_id'];
         header("Location: adminHome.php");
 	}else{
-        $errMSG = "Incorrect Credentials, Try again...";
+        $errMSG = "Incorrect Credentials,Try again..";
     }
 }
 
